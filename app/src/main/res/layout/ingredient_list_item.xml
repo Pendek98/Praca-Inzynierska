@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="52dp"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/IngredientName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="672dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/IngredientAmount"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_toStartOf="@id/DeleteIngredient"
+        android:layout_toEndOf="@id/IngredientName"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="1"
+        android:inputType="number"
+        android:text="1"
+        android:textAlignment="gravity"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/DeleteIngredient"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/DeleteIngredient"
+        android:layout_marginTop="0dp"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@id/IngredientAmount"
+        android:background="@color/black" />
+
+</RelativeLayout>

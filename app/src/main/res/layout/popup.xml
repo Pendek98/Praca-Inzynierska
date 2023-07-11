@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:id="@+id/meats"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/meat"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/sweets"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/sweets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fruits" />
+
+    <ImageView
+        android:id="@+id/fruits"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/fruits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vegetables" />
+
+    <ImageView
+        android:id="@+id/vegetables"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/vegetables"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meats" />
+
+    <ImageView
+        android:id="@+id/spices"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/spices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sweets" />
+
+    <ImageView
+        android:id="@+id/grains"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/grains"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spices" />
+
+    <ImageView
+        android:id="@+id/milk"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/cheese"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grains" />
+
+    <TextView
+        android:id="@+id/selfIngridient"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Własny"
+        android:textColor="#DC272222"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/milk" />
+</androidx.constraintlayout.widget.ConstraintLayout>

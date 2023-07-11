@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerList" >
+        <item>Wszystko</item>
+        <item>Ostre</item>
+        <item>Łagodne</item>
+        <item>Słone</item>
+        <item>Mięsne</item>
+        <item>Słodkie</item>
+        <item>Orientalne</item>
+        <item>Włoskie</item>
+        <item>Wege</item>
+        <item>Ryba</item>
+        <item>Zupa</item>
+    </string-array>
+    <string-array name="meats">
+        <item>Kurczak</item>
+        <item>Schabowy</item>
+        <item>Boczek</item>
+        <item>Szynka</item>
+        <item>Salami</item>
+        <item>Łosoś</item>
+        <item>Karp</item>
+        <item>Krewetki</item>
+        <item>Mięso mielone</item>
+    </string-array>
+    <string-array name="grains">
+        <item>Chleb pszenny</item>
+        <item>Kajzerka</item>
+        <item>Chleb ziarnisty</item>
+        <item>Chleb ciemny</item>
+        <item>Chleb bezglutenowy</item>
+        <item>Bułka bezglutenowy</item>
+        <item>Bagietka pszenna</item>
+        <item>Półbagietka</item>
+        <item>Bagietka czosnkowa</item>
+        <item>Rogal</item>
+        <item>Pączek</item>
+        <item>Donut</item>
+    </string-array>
+    <string-array name="vegetables">
+        <item>Brokuł</item>
+        <item>Kapusta chińska</item>
+        <item>Kapusta biała</item>
+        <item>Kapusta czerwona</item>
+        <item>Kapusta kiszona</item>
+        <item>Cebula biała</item>
+        <item>Cebula czerwona</item>
+        <item>Czosnek</item>
+        <item>Por</item>
+        <item>Szczypiorek</item>
+        <item>Pietruszka korzeń</item>
+        <item>Pietruszka zielona</item>
+        <item>Burak czerwony</item>
+        <item>Ziemnaki</item>
+        <item>Papryka Słodka</item>
+        <item>Papryka Chilli</item>
+        <item>Pomidor malinowy</item>
+        <item>Pomidor koktajlowy</item>
+        <item>Marchew</item>
+        <item>Seler</item>
+    </string-array>
+    <string-array name="fruits">
+        <item>Jabłko</item>
+        <item>Gruszka</item>
+        <item>Banan</item>
+        <item>Maliny</item>
+        <item>Winogrona białe</item>
+        <item>Winogrona czerwone</item>
+        <item>Pomarańcza</item>
+        <item>Mandarynka</item>
+        <item>Śliwki</item>
+        <item>Ananas</item>
+        <item>Truskawki</item>
+        <item>Grejpfrut</item>
+        <item>Kiwi</item>
+        <item>Melon</item>
+        <item>Arbuz</item>
+        <item>Wiśnie</item>
+    </string-array>
+    <string-array name="spices">
+        <item>Pieprz czarny</item>
+        <item>Pieprz cajane</item>
+        <item>Papryka słodka mielona</item>
+        <item>Papryka ostra mielona</item>
+        <item>Chilli</item>
+        <item>Sól</item>
+        <item>Kminek</item>
+        <item>Cynamon</item>
+        <item>Tymianek</item>
+        <item>Oregano</item>
+        <item>Imbir</item>
+        <item>Goździki</item>
+        <item>Ziele angielskie</item>
+        <item>Majeranek</item>
+        <item>Rozmaryn</item>
+        <item>Bazylia</item>
+        <item>Jałowiec</item>
+        <item>Cukier</item>
+    </string-array>
+    <string-array name="milk">
+        <item>Mleko 3.2%</item>
+        <item>Mleko 2%</item>
+        <item>Mleko kokosowe</item>
+        <item>Mleko sojowe</item>
+        <item>Mleko ryżowe</item>
+        <item>Ser cheddar</item>
+        <item>Ser edamski</item>
+        <item>Ser królewski</item>
+        <item>Ser gouda</item>
+        <item>Ser camembert</item>
+        <item>Twaróg</item>
+        <item>Śmietana słodka</item>
+        <item>Śmietana kwaśna</item>
+        <item>Ser mozzarella</item>
+    </string-array>
+    <string-array name="sweets">
+        <item>Batony</item>
+        <item>Cukierki</item>
+        <item>Lody</item>
+        <item>Cisto</item>
+    </string-array>
+</resources>
